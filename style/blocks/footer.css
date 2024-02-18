@@ -1,0 +1,116 @@
+.footer__container {
+  border-top: 1px solid #32393bad;
+  padding-top: 26px;
+  height: 92px;
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__left {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__footer {
+  left: 165px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  margin-top: 40px;
+}
+
+.menu__list--footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 78px;
+}
+
+.logo--footer {
+  margin-top: 15px;
+}
+
+.footer__right {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contacts--footer {
+  right: 0;
+  text-align: right;
+  margin-bottom: 57.36px;
+}
+
+.contacts__text {
+  color: #9A9A9A;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+}
+
+.contacts__phone {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials {
+  top: 29px;
+  right: 265px;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+}
+
+.socials__item--icon--telegram .socials__link {
+  background-image: url(../../img/telegram.png);
+}
+
+.socials__item--icon--telegram .socials__link:hover {
+  background-image: url(../../img/t-hover.png);
+}
+
+.socials__item--icon--vk .socials__link {
+  background-image: url(../../img/vk.png);
+}
+
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url(../../img/vk-hover.png);
+}
+
+.socials__item--icon--facebook .socials__link {
+  background-image: url(../../img/f.png);
+}
+
+.socials__item--icon--facebook .socials__link:hover {
+  background-image: url(../../img/f-hover.png);
+}
+
+.socials__item--icon--instagram .socials__link {
+  background-image: url(../../img/in.png);
+}
+
+.socials__item--icon--instagram .socials__link:hover {
+  background-image: url(../../img/in-hover.png);
+}

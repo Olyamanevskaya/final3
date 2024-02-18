@@ -1,0 +1,158 @@
+.header {
+  padding-top: 26px;
+  margin-bottom: 131px;
+  height: 70px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.header__container, .header__left, .menu__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__right {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo {
+  margin-right: 79px;
+  left: 0;
+  font-weight: 85px;
+  height: 36px;
+}
+
+.menu__header {
+  left: 165px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  margin-top: 28px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item:hover {
+  color: red;
+}
+
+.menu__item {
+  margin-right: 54px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.contacts {
+  right: 0;
+  text-align: right;
+  margin-top: 70px;
+}
+
+.contacts__phone {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contacts__info {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #98A4A8;
+}
+
+.contacts__info:hover {
+  color: #FFF;
+}
+
+.hello {
+  padding-top: 131px;
+  margin-bottom: 246px;
+}
+
+.hello__title {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 197px;
+  width: 511px;
+  margin-bottom: 27.5px;
+}
+
+.hello__text {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 196px;
+  height: 20px;
+  margin-bottom: 33.5px;
+}
+
+
+.contacts__work:hover .contacts__dropdown {
+  opacity: 0.8;
+  pointer-events: all;
+}
+
+.contacts__dropdown {
+  padding: 14px 17px;
+  background: bisque;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 157px;
+  background: #ededed;
+  color: #000;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
+  border-radius: 5px;
+  position: relative;
+  right: -33px;
+  top: 7px;
+}
+
+.contacts__dropdown-up {
+  font-weight: bold;
+}
+
+
+.contacts__dropdown-triangle {
+  position: absolute;
+
+}
+
+.contacts__dropdown-triangle::after {
+  content: "";
+	border-left: 15px solid transparent ;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #ededed;
+  position: absolute;
+  right: -100px;
+  top: -21px;
+}
